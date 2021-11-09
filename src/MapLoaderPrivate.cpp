@@ -28,7 +28,7 @@ it freely, subject to the following restrictions:
 
 #include <tmx/MapLoader.hpp>
 #include <tmx/Log.hpp>
-
+#include <iostream>
 #include "miniz.h"
 
 #ifdef _MSC_VER
@@ -215,7 +215,8 @@ bool MapLoader::parseTileSets(const pugi::xml_node& mapNode)
 		if(tileset.attribute("source"))
 		{
 			//try loading tsx
-			std::string file = fileFromPath(tileset.attribute("source").as_string());
+			std::string file = tileset.attribute("source").as_string();
+			std::cout << file << std::endl;
 			std::string path;
 			pugi::xml_document tsxDoc;
 			pugi::xml_parse_result result;
@@ -224,7 +225,13 @@ bool MapLoader::parseTileSets(const pugi::xml_node& mapNode)
 			{
 				path = p + file;
 				result = tsxDoc.load_file(path.c_str());
+				std::cout << "source tileset"<< p+file << std::endl;
 				if(result) break;
+				else{
+					path = p + fileFromPath(file);
+					result = tsxDoc.load_file(path.c_str());
+					if(result) break;
+				}
 			}
 			if(!result)
 			{
@@ -279,7 +286,10 @@ bool MapLoader::processTiles(const pugi::xml_node& tilesetNode)
 	}
 
 	//process image from disk
-	std::string imageName = fileFromPath(imageNode.attribute("source").as_string());
+	std::string imageName = imageNode.attribute("source").as_string();
+	
+	std::cout << imageName << std::endl;
+	
 	sf::Image sourceImage = loadImage(imageName);
 	if(m_failedImage)
 	{
@@ -344,7 +354,7 @@ bool MapLoader::parseCollectionOfImages(const pugi::xml_node& tilesetNode)
             {
                 if (std::string(c.name()) == "image")
                 {
-                    std::string imageName = fileFromPath(c.attribute("source").as_string());
+                    std::string imageName = c.attribute("source").as_string();
                     sf::Image sourceImage = loadImage(imageName);
                     if (m_failedImage)
                     {
@@ -947,6 +957,7 @@ bool MapLoader::parseImageLayer(const pugi::xml_node& imageLayerNode)
 	}
 
 	std::string imageName = imageNode.attribute("source").as_string();
+	std::cout << "image = " << imageName << std::endl;
 	sf::Image image = loadImage(imageName);
 	if(m_failedImage)
 	{
@@ -1253,62 +1264,62 @@ sf::Image& MapLoader::loadImage(const std::string& imageName)
 */
 
 namespace tmx
-{
-static const std::string base64_chars =
-				"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-				"abcdefghijklmnopqrstuvwxyz"
-				"0123456789+/";
-
-
-static inline bool is_base64(unsigned char c)
-{
-	return (isalnum(c) || (c == '+') || (c == '/'));
-}
-
-std::string base64_decode(std::string const& encoded_string)
-{
-	int in_len = encoded_string.size();
-	int i = 0;
-	int j = 0;
-	int in_ = 0;
-	unsigned char char_array_4[4], char_array_3[3];
-	std::string ret;
-
-	while (in_len-- && ( encoded_string[in_] != '=') && is_base64(encoded_string[in_]))
 	{
-		char_array_4[i++] = encoded_string[in_]; in_++;
-		if (i ==4)
+	static const std::string base64_chars =
+					"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+					"abcdefghijklmnopqrstuvwxyz"
+					"0123456789+/";
+
+
+	static inline bool is_base64(unsigned char c)
+	{
+		return (isalnum(c) || (c == '+') || (c == '/'));
+	}
+
+	static std::string base64_decode(std::string const& encoded_string)
+	{
+		int in_len = encoded_string.size();
+		int i = 0;
+		int j = 0;
+		int in_ = 0;
+		unsigned char char_array_4[4], char_array_3[3];
+		std::string ret;
+
+		while (in_len-- && ( encoded_string[in_] != '=') && is_base64(encoded_string[in_]))
 		{
-			for (i = 0; i <4; i++)
-				char_array_4[i] = base64_chars.find(char_array_4[i]);
+			char_array_4[i++] = encoded_string[in_]; in_++;
+			if (i ==4)
+			{
+				for (i = 0; i <4; i++)
+					char_array_4[i] = base64_chars.find(char_array_4[i]);
+
+				char_array_3[0] = (char_array_4[0] << 2) + ((char_array_4[1] & 0x30) >> 4);
+				char_array_3[1] = ((char_array_4[1] & 0xf) << 4) + ((char_array_4[2] & 0x3c) >> 2);
+				char_array_3[2] = ((char_array_4[2] & 0x3) << 6) + char_array_4[3];
+
+				for (i = 0; (i < 3); i++)
+					ret += char_array_3[i];
+				i = 0;
+			}
+		}
+
+		if (i)
+		{
+			for (j = i; j <4; j++)
+				char_array_4[j] = 0;
+
+			for (j = 0; j <4; j++)
+				char_array_4[j] = base64_chars.find(char_array_4[j]);
 
 			char_array_3[0] = (char_array_4[0] << 2) + ((char_array_4[1] & 0x30) >> 4);
 			char_array_3[1] = ((char_array_4[1] & 0xf) << 4) + ((char_array_4[2] & 0x3c) >> 2);
 			char_array_3[2] = ((char_array_4[2] & 0x3) << 6) + char_array_4[3];
 
-			for (i = 0; (i < 3); i++)
-				ret += char_array_3[i];
-			i = 0;
+			for (j = 0; (j < i - 1); j++)
+				ret += char_array_3[j];
 		}
+
+		return ret;
 	}
-
-	if (i)
-	{
-		for (j = i; j <4; j++)
-			char_array_4[j] = 0;
-
-		for (j = 0; j <4; j++)
-			char_array_4[j] = base64_chars.find(char_array_4[j]);
-
-		char_array_3[0] = (char_array_4[0] << 2) + ((char_array_4[1] & 0x30) >> 4);
-		char_array_3[1] = ((char_array_4[1] & 0xf) << 4) + ((char_array_4[2] & 0x3c) >> 2);
-		char_array_3[2] = ((char_array_4[2] & 0x3) << 6) + char_array_4[3];
-
-		for (j = 0; (j < i - 1); j++)
-			ret += char_array_3[j];
-	}
-
-	return ret;
-}
 //int Logger::m_logFilter = (Type::Error | Type::Info | Type::Warning);
 };

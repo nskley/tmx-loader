@@ -295,7 +295,7 @@ typedef struct mz_stream_s
   int data_type;                    // data_type (unused)
   mz_ulong adler;                   // adler32 of the source or uncompressed data
   mz_ulong reserved;                // not used
-} mz_stream;
+  } mz_stream;
 
 typedef mz_stream *mz_streamp;
 

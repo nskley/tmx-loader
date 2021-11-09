@@ -39,12 +39,13 @@ int main()
 	renderWindow.setVerticalSyncEnabled(true);
 
 	//create map loader and load map
-	tmx::MapLoader ml("maps/");
-	ml.load("isometric_grass_and_water.tmx");
+	tmx::MapLoader ml("/home/mkas/ENSEA/test/karadagkanelouis/res/map/");
+	ml.load("map_1.tmx");
 
 	//adjust the view to centre on map
 	sf::View view = renderWindow.getView();
-	view.setCenter(0.f, 300.f);
+	view.zoom(6.0f);
+	view.setCenter(1024.0f, 2000.0f);
 	renderWindow.setView(view);
 
 	//to toggle debug output
