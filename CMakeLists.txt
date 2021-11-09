@@ -9,7 +9,7 @@ set(SFML_STATIC_LIBS FALSE CACHE BOOL "Choose whether SFML is linked statically 
 set(TMX_STATIC_STD_LIBS FALSE CACHE BOOL "Use statically linked standard/runtime libraries? This option must match the one used for SFML.")
 set(USE_BOX2D FALSE CACHE BOOL "Use the Box2D functions of the map loader - Requires Box2D if true")
 set(TMX_BUILD_EXAMPLE FALSE BOOL CACHE BOOL "TRUE to build the tmx-loader example, FALSE to ignore them")
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/Modules/")
 
 # tmx-loader uses C++11 features
 if(CMAKE_COMPILER_IS_GNUCXX OR ${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
@@ -87,8 +87,14 @@ set(fonts_SRCS "${PROJECT_SOURCE_DIR}/fonts/")
 add_library(pugi ${pugi_HDRS} ${pugi_SRCS})
 if(BUILD_SHARED_LIBS)
   add_library(${PROJECT_NAME} SHARED ${tmx_HDRS} ${tmx_SRCS})
+  target_include_directories(${PROJECT_NAME} PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
 else()
   add_library(${PROJECT_NAME} STATIC ${tmx_HDRS} ${tmx_SRCS})
+  target_include_directories(${PROJECT_NAME} PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
 endif()
 
 
