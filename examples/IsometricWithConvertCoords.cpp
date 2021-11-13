@@ -32,21 +32,23 @@ it freely, subject to the following restrictions:
 #include <SFML/Graphics.hpp>
 #include <tmx/MapLoader.hpp>
 #include <sstream>
+#include <iostream>
 
 int main()
 {
-	sf::RenderWindow renderWindow(sf::VideoMode(800u, 600u), "TMX Loader");
-	renderWindow.setVerticalSyncEnabled(true);
-
 	//create map loader and load map
 	tmx::MapLoader ml("/home/mkas/ENSEA/test/karadagkanelouis/res/map/");
 	ml.load("map_1.tmx");
+	
+	sf::RenderWindow renderWindow(sf::VideoMode(2000u, 600u), "TMX Loader");
+	renderWindow.setVerticalSyncEnabled(true);
 
 	//adjust the view to centre on map
 	sf::View view = renderWindow.getView();
-	view.zoom(6.0f);
+	view.zoom(3.0f);
 	view.setCenter(1024.0f, 2000.0f);
 	renderWindow.setView(view);
+
 
 	//to toggle debug output
 	bool debug = false;
@@ -65,11 +67,13 @@ int main()
 				debug = !debug;
         }
 
+
 		//draw map
 		renderWindow.clear();
 		renderWindow.draw(ml);
 		if(debug)ml.drawLayer(renderWindow, tmx::MapLayer::Debug);
 		renderWindow.display();
+
 
 		//print mouse coords to orthographic (screen) coords and world (isometric) coords
 		sf::Vector2f mousePosScreen = renderWindow.mapPixelToCoords(sf::Mouse::getPosition(renderWindow));
@@ -79,6 +83,7 @@ int main()
 		stream << "Mouse Position: "<< mousePosScreen.x << ", " << mousePosScreen.y << " World Position: " << mousePosWorld.x << ", " << mousePosWorld.y;
 
 		renderWindow.setTitle(stream.str());
+		
 	}
 
 	return 0;

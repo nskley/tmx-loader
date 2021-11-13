@@ -1082,11 +1082,9 @@ std::string MapLoader::fileFromPath(const std::string& path)
 	return path;
 }
 
-void MapLoader::draw(sf::RenderTarget& rt, sf::RenderStates /* states */) const
-{
+void MapLoader::draw(sf::RenderTarget& rt, sf::RenderStates /* states */) const{
 	sf::View view  = rt.getView();
-	if(view.getCenter() != m_lastViewPos)
-	{
+	if(view.getCenter() != m_lastViewPos){
 		sf::FloatRect bounds;
 		bounds.left = view.getCenter().x - (view.getSize().x / 2.f);
 		bounds.top = view.getCenter().y - (view.getSize().y / 2.f);
@@ -1100,13 +1098,16 @@ void MapLoader::draw(sf::RenderTarget& rt, sf::RenderStates /* states */) const
 		bounds.height += static_cast<float>(m_tileHeight * 2);
 		m_bounds = bounds;
 
-		for(auto& layer : m_layers)
+		for(auto& layer : m_layers){
 			layer.cull(m_bounds);
+		}
 	}
+
 	m_lastViewPos = view.getCenter();
 
-	for(auto& layer : m_layers)
+	for(auto& layer : m_layers){
 		rt.draw(layer);
+	}
 }
 
 //decoding and utility functions
@@ -1150,12 +1151,10 @@ bool MapLoader::decompress(const char* source, std::vector<unsigned char>& dest,
 	}
 
 	int result = 0;
-	do
-	{
+	do{
 		result = inflate(&stream, Z_SYNC_FLUSH);
 
-		switch(result)
-		{
+		switch(result){
 		case Z_NEED_DICT:
 		case Z_STREAM_ERROR:
 			result = Z_DATA_ERROR;
@@ -1166,8 +1165,7 @@ bool MapLoader::decompress(const char* source, std::vector<unsigned char>& dest,
 			return false;
 		}
 
-		if(result != Z_STREAM_END)
-		{
+		if(result != Z_STREAM_END){
 			int oldSize = currentSize;
 			currentSize *= 2;
             std::vector<unsigned char> newArray(currentSize / sizeof(unsigned char));
@@ -1181,8 +1179,7 @@ bool MapLoader::decompress(const char* source, std::vector<unsigned char>& dest,
 	}
 	while(result != Z_STREAM_END);
 
-	if(stream.avail_in != 0)
-	{
+	if(stream.avail_in != 0){
 		LOG("stream.avail_in is 0", Logger::Type::Error);
 		LOG("zlib decompression failed.", Logger::Type::Error);
 		return false;
@@ -1271,13 +1268,11 @@ namespace tmx
 					"0123456789+/";
 
 
-	static inline bool is_base64(unsigned char c)
-	{
+	static inline bool is_base64(unsigned char c){
 		return (isalnum(c) || (c == '+') || (c == '/'));
 	}
 
-	static std::string base64_decode(std::string const& encoded_string)
-	{
+	static std::string base64_decode(std::string const& encoded_string){
 		int in_len = encoded_string.size();
 		int i = 0;
 		int j = 0;
@@ -1285,11 +1280,9 @@ namespace tmx
 		unsigned char char_array_4[4], char_array_3[3];
 		std::string ret;
 
-		while (in_len-- && ( encoded_string[in_] != '=') && is_base64(encoded_string[in_]))
-		{
+		while (in_len-- && ( encoded_string[in_] != '=') && is_base64(encoded_string[in_])){
 			char_array_4[i++] = encoded_string[in_]; in_++;
-			if (i ==4)
-			{
+			if (i ==4){
 				for (i = 0; i <4; i++)
 					char_array_4[i] = base64_chars.find(char_array_4[i]);
 
@@ -1303,8 +1296,7 @@ namespace tmx
 			}
 		}
 
-		if (i)
-		{
+		if (i){
 			for (j = i; j <4; j++)
 				char_array_4[j] = 0;
 
