@@ -58,14 +58,14 @@ set(pugi_SRCS
         src/pugixml/pugixml.cpp)
 
 set(tmx_HDRS
-        include/tmx/MapLayer.hpp
-        include/tmx/MapLoader.hpp
-        include/tmx/MapObject.hpp
-        include/tmx/QuadTreeNode.hpp
-        include/tmx/DebugShape.hpp
-        include/tmx/Helpers.hpp
-        include/tmx/Log.hpp
-        include/tmx/Export.hpp)
+        include/tmx/MapLayer.h
+        include/tmx/MapLoader.h
+        include/tmx/MapObject.h
+        include/tmx/QuadTreeNode.h
+        include/tmx/DebugShape.h
+        include/tmx/Helpers.h
+        include/tmx/Log.h
+        include/tmx/Export.h)
 
 set(tmx_SRCS
         src/DebugShape.cpp
@@ -79,7 +79,7 @@ set(tmx_SRCS
 
 if(USE_BOX2D)
 list(APPEND ${tmx_HDRS}
-        include/tmx/tmx2box2d.hpp)
+        include/tmx/tmx2box2d.h)
 list(APPEND ${tmx_SRCS}
         src/tmx2box2d.cpp)
 endif()

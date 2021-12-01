@@ -26,8 +26,8 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#include <tmx/MapLoader.hpp>
-#include <tmx/Log.hpp>
+#include <tmx/MapLoader.h>
+#include <tmx/Log.h>
 #include <iostream>
 #include "miniz.h"
 

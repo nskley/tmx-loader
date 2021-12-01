@@ -24,8 +24,8 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#ifndef HELPERS_HPP_
-#define HELPERS_HPP_
+#ifndef HELPERS_H_
+#define HELPERS_H_
 
 
 #include <SFML/Graphics/Rect.hpp>
@@ -117,4 +117,4 @@ namespace Helpers
 	};
 };
 
-#endif //HELPERS_HPP_
+#endif //HELPERS_H_

@@ -29,7 +29,7 @@ it freely, subject to the following restrictions:
 
 
 ///source for QuadTreeNode class///
-#include <tmx/QuadTreeNode.hpp>
+#include <tmx/QuadTreeNode.h>
 
 using namespace tmx;
 

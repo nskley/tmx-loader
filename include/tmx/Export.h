@@ -26,8 +26,8 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#ifndef TMX_EXPORT_HPP_
-#define TMX_EXPORT_HPP_
+#ifndef TMX_EXPORT_H_
+#define TMX_EXPORT_H_
 
 //check which platform we're on and create export macros as necessary
 #if !defined(TMX_STATIC)
@@ -71,4 +71,4 @@ source distribution.
 //#pragma warning(disable: 4275)
 //#endif //_MSC_VER
 
-#endif //TMX_EXPORT_HPP_
+#endif //TMX_EXPORT_H_

@@ -30,7 +30,7 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#include <tmx/tmx2box2d.hpp>
+#include <tmx/tmx2box2d.h>
 
 #include <box2d/b2_body.h>
 #include <box2d/b2_circle_shape.h>

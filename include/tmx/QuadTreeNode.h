@@ -26,10 +26,10 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#ifndef QUADTREE_NODE_HPP_
-#define QUADTREE_NODE_HPP_
+#ifndef QUADTREE_NODE_H_
+#define QUADTREE_NODE_H_
 
-#include <tmx/MapObject.hpp>
+#include <tmx/MapObject.h>
 
 #include <memory>
 
@@ -113,4 +113,4 @@ namespace tmx
 };
 
 
-#endif //QUADTREE_NODE_HPP_
+#endif //QUADTREE_NODE_H_

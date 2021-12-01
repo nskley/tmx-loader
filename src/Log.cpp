@@ -26,7 +26,7 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#include <tmx/Log.hpp>
+#include <tmx/Log.h>
 
 namespace
 {

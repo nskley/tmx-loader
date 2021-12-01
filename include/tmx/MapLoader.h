@@ -26,11 +26,11 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#ifndef MAP_LOADER_HPP_
-#define MAP_LOADER_HPP_
+#ifndef MAP_LOADER_H_
+#define MAP_LOADER_H_
 
-#include <tmx/QuadTreeNode.hpp>
-#include <tmx/MapLayer.hpp>
+#include <tmx/QuadTreeNode.h>
+#include <tmx/MapLayer.h>
 
 #include <pugixml/pugixml.hpp>
 
@@ -215,4 +215,4 @@ namespace tmx
 	static std::string base64_decode(std::string const& string);
 }
 
-#endif //MAP_LOADER_HPP_
+#endif //MAP_LOADER_H_

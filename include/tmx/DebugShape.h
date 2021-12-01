@@ -26,10 +26,10 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#ifndef DEBUG_SHAPE_HPP_
-#define DEBUG_SHAPE_HPP_
+#ifndef DEBUG_SHAPE_H_
+#define DEBUG_SHAPE_H_
 
-#include <tmx/Export.hpp>
+#include <tmx/Export.h>
 
 #include <SFML/Graphics/VertexArray.hpp>
 #include <SFML/Graphics/Drawable.hpp>

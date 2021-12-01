@@ -30,10 +30,10 @@ source distribution.
 
 //flexible logging class
 
-#ifndef LOGGER_HPP_
-#define LOGGER_HPP_
+#ifndef LOGGER_H_
+#define LOGGER_H_
 
-#include <tmx/Export.hpp>
+#include <tmx/Export.h>
 
 #include <SFML/System/NonCopyable.hpp>
 
@@ -153,4 +153,4 @@ namespace tmx
     TMX_EXPORT_API void setLogLevel(int level);
 }
 
-#endif //LOGGER_HPP_
+#endif //LOGGER_H_

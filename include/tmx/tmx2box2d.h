@@ -26,10 +26,10 @@ and must not be misrepresented as being the original software.
 source distribution.
 *********************************************************************/
 
-#ifndef TMX_BOX2D_HPP_
-#define TMX_BOX2D_HPP_
+#ifndef TMX_BOX2D_H_
+#define TMX_BOX2D_H_
 
-#include <tmx/MapObject.hpp>
+#include <tmx/MapObject.h>
 
 #include <box2d/b2_world.h>
 #include <box2d/b2_math.h>
@@ -95,4 +95,4 @@ namespace tmx
 	};
 }
 
-#endif //TMX_BOX2D_HPP_
+#endif //TMX_BOX2D_H_

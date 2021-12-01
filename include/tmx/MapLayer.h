@@ -26,11 +26,11 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#ifndef MAPLAYER_HPP_
-#define MAPLAYER_HPP_
+#ifndef MAPLAYER_H_
+#define MAPLAYER_H_
 
-#include <tmx/MapObject.hpp>
-#include <tmx/Export.hpp>
+#include <tmx/MapObject.h>
+#include <tmx/Export.h>
 
 #include <memory>
 #include <array>
@@ -140,4 +140,4 @@ namespace tmx
 	};
 };
 
-#endif //MAPLAYER_HPP_
+#endif //MAPLAYER_H_

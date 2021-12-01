@@ -26,11 +26,11 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#ifndef MAP_OBJECT_HPP_
-#define MAP_OBJECT_HPP_
+#ifndef MAP_OBJECT_H_
+#define MAP_OBJECT_H_
 
-#include <tmx/Helpers.hpp>
-#include <tmx/DebugShape.hpp>
+#include <tmx/Helpers.h>
+#include <tmx/DebugShape.h>
 
 //TODO what's with all these includes???
 #include <SFML/Graphics/Color.hpp>
@@ -272,4 +272,4 @@ private:
 	using MapTiles =  std::vector<MapTile>;
 };
 
-#endif //MAP_OBJECT_HPP_
+#endif //MAP_OBJECT_H_

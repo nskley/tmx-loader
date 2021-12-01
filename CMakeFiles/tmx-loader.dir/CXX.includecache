@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mkas/ENSEA/tmx-loader/src/Log.cpp
+tmx/Log.h
+-
+
+include/tmx/Export.h
+
+include/tmx/Log.h
+tmx/Export.h
+-
+SFML/System/NonCopyable.hpp
+-
+string
+-
+iostream
+-
+fstream
+-
+Windows.h
+-
+

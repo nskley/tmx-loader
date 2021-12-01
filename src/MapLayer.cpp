@@ -26,7 +26,7 @@ it freely, subject to the following restrictions:
    source distribution.
 *********************************************************************/
 
-#include <tmx/MapLayer.hpp>
+#include <tmx/MapLayer.h>
 
 using namespace tmx;
 ///------TileQuad-----///

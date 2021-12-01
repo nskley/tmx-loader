@@ -25,9 +25,9 @@ it freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any
    source distribution.
 *********************************************************************/
-#include <tmx/MapObject.hpp>
-#include <tmx/MapLayer.hpp>
-#include <tmx/Log.hpp>
+#include <tmx/MapObject.h>
+#include <tmx/MapLayer.h>
+#include <tmx/Log.h>
 
 using namespace tmx;
 
