@@ -53,6 +53,9 @@ namespace tmx
 	class TMX_EXPORT_API MapLoader final : public sf::Drawable, private sf::NonCopyable
 	{
 	public:
+
+		MapLoader();
+		
 		/*!
         \brief Constructor
         Requires a path to the map directory relative to working directory

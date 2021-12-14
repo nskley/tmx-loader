@@ -1,0 +1,55 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mkas/ENSEA/tmx-loader'
+/usr/bin/cmake -S/home/mkas/ENSEA/tmx-loader -B/home/mkas/ENSEA/tmx-loader --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/mkas/ENSEA/tmx-loader/CMakeFiles /home/mkas/ENSEA/tmx-loader//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/mkas/ENSEA/tmx-loader'
+make -s -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/depend
+make[2]: Entering directory '/home/mkas/ENSEA/tmx-loader'
+cd /home/mkas/ENSEA/tmx-loader && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader/CMakeFiles/pugi.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+make -s -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/build
+make[2]: Entering directory '/home/mkas/ENSEA/tmx-loader'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/pugi.dir/src/pugixml/pugixml.cpp.o"
+/usr/bin/c++ -Dpugi_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/pugi.dir/src/pugixml/pugixml.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/pugixml/pugixml.cpp
+ 
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=2 "Linking CXX shared library libpugi.so"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/pugi.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=1,2 "Built target pugi"
+make -s -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/depend
+ 
+make[2]: Entering directory '/home/mkas/ENSEA/tmx-loader'
+cd /home/mkas/ENSEA/tmx-loader && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader /home/mkas/ENSEA/tmx-loader/CMakeFiles/tmx-loader.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+ 
+make -s -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/build
+ 
+make[2]: Entering directory '/home/mkas/ENSEA/tmx-loader'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/tmx-loader.dir/src/DebugShape.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/DebugShape.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/DebugShape.cpp
+ 
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=4 "Building CXX object CMakeFiles/tmx-loader.dir/src/MapLoaderPublic.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/MapLoaderPublic.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/MapLoaderPublic.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=5 "Building CXX object CMakeFiles/tmx-loader.dir/src/MapLoaderPrivate.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/MapLoaderPrivate.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/MapLoaderPrivate.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=6 "Building CXX object CMakeFiles/tmx-loader.dir/src/MapLayer.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/MapLayer.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/MapLayer.cpp
+ 
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=7 "Building CXX object CMakeFiles/tmx-loader.dir/src/MapObject.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/MapObject.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/MapObject.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=8 "Building C object CMakeFiles/tmx-loader.dir/src/miniz.c.o"
+/usr/bin/cc -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -fPIC -o CMakeFiles/tmx-loader.dir/src/miniz.c.o -c /home/mkas/ENSEA/tmx-loader/src/miniz.c
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=9 "Building CXX object CMakeFiles/tmx-loader.dir/src/QuadTreeNode.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/QuadTreeNode.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/QuadTreeNode.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/mkas/ENSEA/tmx-loader/CMakeFiles --progress-num=10 "Building CXX object CMakeFiles/tmx-loader.dir/src/Log.cpp.o"
+/usr/bin/c++ -Dtmx_loader_EXPORTS -I/home/mkas/ENSEA/tmx-loader/include -I/home/mkas/ENSEA/tmx-loader/include/tmx -std=c++11 -fPIC -o CMakeFiles/tmx-loader.dir/src/Log.cpp.o -c /home/mkas/ENSEA/tmx-loader/src/Log.cpp
+make[2]: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+make[1]: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+ 
+make[2]: *** No rule to make target 'libpugi.so', needed by 'libtmx-loader.so'.
+make[1]: *** [CMakeFiles/Makefile2:97: CMakeFiles/tmx-loader.dir/all] Error 2
+make: *** [Makefile:149: all] Error 2
+ 
+make: Leaving directory '/home/mkas/ENSEA/tmx-loader'
+ 

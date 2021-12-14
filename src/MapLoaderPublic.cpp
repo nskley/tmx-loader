@@ -34,6 +34,8 @@ it freely, subject to the following restrictions:
 using namespace tmx;
 
 //ctor
+MapLoader::MapLoader() : m_patchSize(10u){}
+
 MapLoader::MapLoader(const std::string& mapDirectory, sf::Uint8 patchSize)
 	: m_width			(1u),
 	m_height			(1u),

@@ -1,0 +1,1007 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Dec 14 19:46:15 2021
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-005b1a87-931c-4078-9786-d620aecc6042.sock
+# environment
+VSCODE_CWD = /home/mkas/ENSEA/tmx-loader
+# environment
+WINDOWPATH = 2
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/mkas/ENSEA/tmx-loader
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/mkas/ENSEA
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mkas/.config/Code/CachedData/ee8c7def80afc00dd6e593ef12f37756d8f504ea
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 61)
+CMAKE_COMMAND = /usr/bin/cmake
+# environment
+GNOME_TERMINAL_SERVICE = :1.144
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/mkas/ENSEA/tmx-loader
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=3c2bb635-9985-4f8c-b849-c5f391d13d99&iid=3c2bb635-9985-4f8c-b849-c5f391d13d99&sid=3c2bb635-9985-4f8c-b849-c5f391d13d99","uploadToServer":true}
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+CONDA_SHLVL = 1
+# makefile (from 'Makefile', line 73)
+CMAKE_BINARY_DIR = /home/mkas/ENSEA/tmx-loader
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 22425
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CONDA_PYTHON_EXE = /home/mkas/anaconda3/bin/python
+# makefile (from 'Makefile', line 70)
+CMAKE_SOURCE_DIR = /home/mkas/ENSEA/tmx-loader
+# environment
+SESSION_MANAGER = local/kalikane:@/tmp/.ICE-unix/1926,unix/kalikane:/tmp/.ICE-unix/1926
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/mkas/.config/Code/exthost Crash Reports
+# environment
+ANDROID_SDK_ROOT = /home/mkas/Android/Sdk
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+ANDROID_HOME = /home/mkas/Android/Sdk
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+CONDA_PREFIX = /home/mkas/anaconda3
+# makefile (from 'Makefile', line 58)
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+ 
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a9dd974b_5967_46db_bf5e_1204c10f6ae8
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/mkas/anaconda3/bin:/home/mkas/anaconda3/condabin:/home/mkas/.local/bin:/home/mkas/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/mkas/.dotnet/tools:/home/mkas/flutter/bin:/home/mkas/Android/Sdk/tools:/home/mkas/Android/Sdk/platform-tools
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+COMMAND_NOT_FOUND_INSTALL_PROMPT = 1
+# environment
+INVOCATION_ID = 428dfa0bac064ea8b1465cc18c432f77
+# environment
+QSYS_ROOTDIR = /home/mkas/intelFPGA_lite/20.1/quartus/sopc_builder/bin
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = mkas
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CONDA_DEFAULT_ENV = base
+# makefile (from 'Makefile', line 67)
+EQUALS = =
+# environment
+LOGNAME = mkas
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := default_target
+# makefile (from 'Makefile', line 64)
+RM = /usr/bin/cmake -E rm -f
+# environment
+DISPLAY = :1
+# environment
+USER = mkas
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1691
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 22425
+# environment
+SSH_AGENT_PID = 1882
+# makefile (from 'Makefile', line 44)
+MAKESILENT = -s
+# environment
+_ = /usr/bin/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+_CE_M = 
+# environment
+POWERSHELL_TELEMETRY_OPTOUT = 1
+# environment
+JOURNAL_STREAM = 8:26085
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/mkas
+# environment
+QT_IM_MODULE = ibus
+# environment
+_JAVA_OPTIONS = -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dbd344ef-1.61.0-main.sock
+# environment
+TERM = xterm-256color
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6402
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+CONDA_EXE = /home/mkas/anaconda3/bin/conda
+# environment
+_CE_CONDA = 
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=13/167=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# RCS: could not be stat'd.
+# SCCS: could not be stat'd.
+# . (device 2051, inode 21239264): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
+# Files
+
+src/pugixml/pugixml.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 444):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/src/pugixml/pugixml.cpp.s
+
+src/Log.o: src/Log.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 175):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/Log.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 246):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/Log.cpp.i
+
+src/MapLoaderPublic.i: src/MapLoaderPublic.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/Log.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 237):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/Log.cpp.o
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapLoaderPrivate.i: src/MapLoaderPrivate.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+pugi/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 201):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/build
+
+src/MapLoaderPrivate.o: src/MapLoaderPrivate.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+pugi: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 196):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugi
+
+ 
+src/miniz.s: src/miniz.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapLayer.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 282):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLayer.cpp.s
+
+src/QuadTreeNode.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 381):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/QuadTreeNode.cpp.i
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-01 22:20:19.953474204
+#  File has been updated.
+#  Successfully updated.
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+src/Log.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 255):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/Log.cpp.s
+
+src/DebugShape.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 219):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/DebugShape.cpp.i
+
+src/miniz.o: src/miniz.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/miniz.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 408):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/miniz.c.i
+
+src/DebugShape.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 210):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/DebugShape.cpp.o
+
+src/MapLoaderPrivate.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 291):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPrivate.cpp.o
+
+src/MapLoaderPublic.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 336):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPublic.cpp.s
+
+src/MapLoaderPublic.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 327):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPublic.cpp.i
+
+src/MapLoaderPublic.o: src/MapLoaderPublic.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapLayer.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 264):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLayer.cpp.o
+
+src/miniz.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 399):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/miniz.c.o
+
+src/DebugShape.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 228):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/DebugShape.cpp.s
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/miniz.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 417):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/miniz.c.s
+
+src/MapLoaderPrivate.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 309):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPrivate.cpp.s
+
+src/MapLoaderPublic.s: src/MapLoaderPublic.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 155):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/DebugShape.s: src/DebugShape.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapLoaderPrivate.s: src/MapLoaderPrivate.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 170):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 137):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+
+src/DebugShape.i: src/DebugShape.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapObject.o: src/MapObject.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/QuadTreeNode.i: src/QuadTreeNode.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/pugixml/pugixml.s: src/pugixml/pugixml.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapObject.s: src/MapObject.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 165):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+src/QuadTreeNode.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 390):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/QuadTreeNode.cpp.s
+
+src/MapLayer.i: src/MapLayer.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/pugixml/pugixml.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 426):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/src/pugixml/pugixml.cpp.o
+
+src/MapLayer.s: src/MapLayer.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+tmx-loader: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 183):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmx-loader
+
+src/pugixml/pugixml.i: src/pugixml/pugixml.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+ 
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+list_install_components/fast: list_install_components
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 148):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkas/ENSEA/tmx-loader/CMakeFiles /home/mkas/ENSEA/tmx-loader//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkas/ENSEA/tmx-loader/CMakeFiles 0
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 449):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... pugi"
+	@echo "... tmx-loader"
+	@echo "... src/DebugShape.o"
+	@echo "... src/DebugShape.i"
+	@echo "... src/DebugShape.s"
+	@echo "... src/Log.o"
+	@echo "... src/Log.i"
+	@echo "... src/Log.s"
+	@echo "... src/MapLayer.o"
+	@echo "... src/MapLayer.i"
+	@echo "... src/MapLayer.s"
+	@echo "... src/MapLoaderPrivate.o"
+	@echo "... src/MapLoaderPrivate.i"
+	@echo "... src/MapLoaderPrivate.s"
+	@echo "... src/MapLoaderPublic.o"
+	@echo "... src/MapLoaderPublic.i"
+	@echo "... src/MapLoaderPublic.s"
+	@echo "... src/MapObject.o"
+	@echo "... src/MapObject.i"
+	@echo "... src/MapObject.s"
+	@echo "... src/QuadTreeNode.o"
+	@echo "... src/QuadTreeNode.i"
+	@echo "... src/QuadTreeNode.s"
+	@echo "... src/miniz.o"
+	@echo "... src/miniz.i"
+	@echo "... src/miniz.s"
+	@echo "... src/pugixml/pugixml.o"
+	@echo "... src/pugixml/pugixml.i"
+	@echo "... src/pugixml/pugixml.s"
+
+src/QuadTreeNode.o: src/QuadTreeNode.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/Log.s: src/Log.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 110):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+install/local: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 92):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+src/MapObject.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 354):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapObject.cpp.i
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/pugixml/pugixml.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 435):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pugi.dir/build.make CMakeFiles/pugi.dir/src/pugixml/pugixml.cpp.i
+
+src/miniz.i: src/miniz.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/DebugShape.o: src/DebugShape.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/Log.i: src/Log.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 104):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+list_install_components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 116):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"bin\""
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from 'Makefile', line 499):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
+src/QuadTreeNode.s: src/QuadTreeNode.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/strip/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 86):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+src/QuadTreeNode.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 372):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/QuadTreeNode.cpp.o
+
+src/pugixml/pugixml.o: src/pugixml/pugixml.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/MapLayer.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 273):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLayer.cpp.i
+
+src/MapObject.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 345):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapObject.cpp.o
+
+src/MapLayer.o: src/MapLayer.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tmx-loader/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 188):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/build
+
+install/local/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 98):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+.PHONY: default_target cmake_force install/strip install/strip/fast install/local install/local/fast install install/fast list_install_components list_install_components/fast rebuild_cache rebuild_cache/fast edit_cache edit_cache/fast all clean clean/fast preinstall preinstall/fast depend tmx-loader tmx-loader/fast pugi pugi/fast src/DebugShape.o src/DebugShape.cpp.o src/DebugShape.i src/DebugShape.cpp.i src/DebugShape.s src/DebugShape.cpp.s src/Log.o src/Log.cpp.o src/Log.i src/Log.cpp.i src/Log.s src/Log.cpp.s src/MapLayer.o src/MapLayer.cpp.o src/MapLayer.i src/MapLayer.cpp.i src/MapLayer.s src/MapLayer.cpp.s src/MapLoaderPrivate.o src/MapLoaderPrivate.cpp.o src/MapLoaderPrivate.i src/MapLoaderPrivate.cpp.i src/MapLoaderPrivate.s src/MapLoaderPrivate.cpp.s src/MapLoaderPublic.o src/MapLoaderPublic.cpp.o src/MapLoaderPublic.i src/MapLoaderPublic.cpp.i src/MapLoaderPublic.s src/MapLoaderPublic.cpp.s src/MapObject.o src/MapObject.cpp.o src/MapObject.i src/MapObject.cpp.i src/MapObject.s src/MapObject.cpp.s src/QuadTreeNode.o src/QuadTreeNode.cpp.o src/QuadTreeNode.i src/QuadTreeNode.cpp.i src/QuadTreeNode.s src/QuadTreeNode.cpp.s src/miniz.o src/miniz.c.o src/miniz.i src/miniz.c.i src/miniz.s src/miniz.c.s src/pugixml/pugixml.o src/pugixml/pugixml.cpp.o src/pugixml/pugixml.i src/pugixml/pugixml.cpp.i src/pugixml/pugixml.s src/pugixml/pugixml.cpp.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/MapLoaderPrivate.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 300):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPrivate.cpp.i
+
+src/MapObject.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 363):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapObject.cpp.s
+
+src/MapLoaderPublic.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 318):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmx-loader.dir/build.make CMakeFiles/tmx-loader.dir/src/MapLoaderPublic.cpp.o
+
+src/MapObject.i: src/MapObject.cpp.i
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/strip: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+# files hash-table stats:
+# Load=87/1024=8%, Rehash=0, Collisions=16/333=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 118 / storage = 1751 B / avg = 14 B
+# current buf: size = 8162 B / used = 1751 B / count = 118 / avg = 14 B
+
+# strcache performance: lookups = 495 / hit rate = 76%
+# hash-table stats:
+# Load=118/8192=1%, Rehash=0, Collisions=4/495=1%
+# Finished Make data base on Tue Dec 14 19:46:15 2021
+
+ 
